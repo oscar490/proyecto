@@ -7,3 +7,5 @@ read -p "Escribe el 2º número: " num2
 echo
 echo "1º número introducido --> " $num1
 echo "2º número introducido --> " $num2
+echo
+echo "El resultado de la suma es: " $((num1+num2))
