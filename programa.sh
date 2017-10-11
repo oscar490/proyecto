@@ -11,3 +11,5 @@ echo
 echo "El resultado de la suma es: " $((num1+num2))
 echo "El resultado de la resta es: " $((num1-num2))
 echo "El resultado de la división es: " $((num1/num2))
+echo
+echo "Adios"
