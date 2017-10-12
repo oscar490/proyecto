@@ -12,3 +12,15 @@ echo "El resultado de la suma es: " $((num1+num2))
 echo "El resultado de la resta es: " $((num1-num2))
 echo "El resultado de la división es: " $((num1/num2))
 echo "Adios gran usuario, GRACIAS"
+echo
+
+echo
+
+var1=0
+
+while [ $var1 -lt 10 ]
+do
+    echo $var1
+    var1=$((var1+1))
+done
+
